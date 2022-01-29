@@ -1,6 +1,7 @@
 # ERC20 Faucet
 
 ERC20 Faucet is a fullstack React and Truffle repository looking to ease the development of a faucet for an ERC20 token.
+For Smart Contract development truffle has been used to compile and migrate the contracts and for the web client side React and Bootstrap has been used. To be able to use Metamask in the web client [@web3-react libraries](https://github.com/NoahZinsmeister/web3-react/tree/v6) hav been used. As web3 library [ethers](https://docs.ethers.io/v5/) has been used instead of web3js.
 
 ## Demo
 
@@ -18,18 +19,23 @@ Manage the faucet from the web client connecting using the owner account.
 
 To install this application you need to edit your `truffle-config.js` using the sample in the root of the project as reference. You need to create a .secret file including your private key to be able to deploy the contracts to your desired network.
 
-### Install truffle dependencies
-
-#### Dependencies
+### Dependencies
 
 Dependencies are already defined on package.json but you can install them manually using the following list.
 
 - @openzeppelin/contracts
 - @truffle/hdwallet-provider
 - truffle-plugin-verify
+- create-react-app
+- react-bootstrap
+- bootswatch
+- ethers
 
 ```bash
 npm install 
+cd client
+npm install
+npm run start
 ```
 
 ### Deploy contracts
@@ -46,14 +52,6 @@ You can verify the contracts on etherscan/bscscan/etc using truffle-plugin-verif
 
 ```bash
 truffle run verify Token Faucet --network networkName
-```
-
-### Web client
-
-```bash
-cd client
-npm install
-npm run start
 ```
 
 ## Contributing
