@@ -2,7 +2,7 @@ import { useWeb3React } from '@web3-react/core'
 import { Navbar, Container, Nav, Button } from 'react-bootstrap'
 import { InjectedConnector } from '@web3-react/injected-connector'
 
-const injected = new InjectedConnector({ supportedChainIds: [1, 1337, 80001] })
+const injected = new InjectedConnector({ supportedChainIds: [80001] })
 
 const Header = () => {
     const { active, deactivate, activate } = useWeb3React()
