@@ -2,6 +2,16 @@
 
 ERC20 Faucet is a fullstack React and Truffle repository looking to ease the development of a faucet for an ERC20 token.
 
+## Demo
+
+![Demo](https://raw.githubusercontent.com/ismaventuras/ERC20-Faucet/main/docs/images/main.png)
+
+## Owner board
+
+Manage the faucet from the web client connecting using the owner account
+
+![Demo](https://raw.githubusercontent.com/ismaventuras/ERC20-Faucet/main/docs/images/ownerboard.png)
+
 ## Installation
 
 ### Deploy contracts
