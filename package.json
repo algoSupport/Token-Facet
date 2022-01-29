@@ -1,0 +1,21 @@
+{
+  "name": "ERC20 Faucet",
+  "version": "1.0.0",
+  "description": "A Faucet for ERC20 Tokens",
+  "main": "truffle-config-sample.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "@truffle/hdwallet-provider": "^2.0.1",
+    "truffle-plugin-verify": "^0.5.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
