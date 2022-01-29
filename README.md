@@ -14,6 +14,8 @@ Manage the faucet from the web client connecting using the owner account
 
 ## Installation
 
+To install this application you need to edit your `truffle-config.js` using the sample in the root of the project
+
 ### Deploy contracts
 
 ```bash
@@ -26,7 +28,7 @@ truffle migrate --network networkName
 truffle run verify Token Faucet --network networkName
 ```
 
-### client
+### Web client
 
 ```bash
 cd client

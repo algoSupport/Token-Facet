@@ -67,7 +67,7 @@ const FaucetBox = ({symbol, name, faucetContract , ERC20Contract, account}) => {
                 <Card.Body>
                     <Row>
                         <Col>
-                            <p className="fw-bold">Retrieval every 6 hours:</p>
+                            <p className="fw-bold">Retrieval every 10 minutes:</p>
                             <span>{maxAmount} {symbol}</span>
                         </Col>
                         <Col>
