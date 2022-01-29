@@ -1,5 +1,5 @@
 {
-  "name": "ERC20 Faucet",
+  "name": "faucet",
   "version": "1.0.0",
   "description": "A Faucet for ERC20 Tokens",
   "main": "truffle-config-sample.js",
@@ -17,5 +17,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }

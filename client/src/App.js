@@ -15,7 +15,7 @@ function App() {
         <Header />
       </Row>
       <Row className="">
-        {active && <Faucet/>}
+        {active ? <Faucet/> : "Please connect your wallet to Mumbai Polygon network"}
       </Row>
     </Container>
   );
